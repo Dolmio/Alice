@@ -1,3 +1,4 @@
+
 @media (min-width: 40em) {
   header h1 {
     font-size: 3em;
@@ -17,6 +18,23 @@
   }
 }
 
+body{
+    font-family: 'Lato', sans-serif;
+}
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    background-image: url("../img/church_huge.jpg");
+    min-height: 370px;
+}
+
+header h1 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-weight: normal;
+}
 .option {
   width: 100px;
   height: 100px;
@@ -32,3 +50,17 @@ a:hover {
   text-decoration: none;
   border-bottom: 1px solid;
 }
+
+.blue {
+    color: #00AFEF;
+}
+
+.bg-blue {
+    background-color: #00AFEF;
+}
+
+.silver {
+    color: #DEE2E3;
+}
+
+
