@@ -63,4 +63,56 @@ a:hover {
     color: #DEE2E3;
 }
 
+.columns li {
+    display: inline-block;
 
+}
+
+.column li {
+    padding: 20px;
+    display: block;
+    border: 1px solid #e0ded8;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    text-align: center;
+}
+
+.column > li:last-child{
+    border-bottom-width: 1px;
+    min-height: 37px;
+}
+
+.columns li:first-child li {
+    border-left-width: 1px;
+}
+
+.columns li:last-child li {
+    border-right-width: 1px;
+}
+
+.column-heading{
+    padding: 20px;
+    min-height: 60px;
+}
+
+.fa-check-circle-o {
+    color: #15b28a;
+}
+
+.fa-times-circle {
+    color: #e13127;
+}
+
+.sub-group {
+    margin-bottom: 0px;
+}
+.sub-group li{
+    border-style: none;
+    text-align: left;
+    padding: 0px 0px 0px 40px;
+    font-size: smaller;
+}
+
+.open-button {
+    background-color: #15b28a;
+}
