@@ -33,22 +33,13 @@
                         </small>
                     </p>
                 </div>
-                <label for="fee0" class="block">
-                    <input type="checkbox" name="fee0" id="fee0" class="mr1">€ 0
-                    <small title="per month">/mo</small>
-                </label>
-                <label for="fee2" class="block">
-                    <input type="checkbox" name="fee2" id="fee2" class="mr1">&lt; € 2
-                    <small title="per month">/mo</small>
-                </label>
-                <label for="fee5" class="block">
-                    <input type="checkbox" name="fee5" id="fee5" class="mr1">&lt; € 5
-                    <small title="per month">/mo</small>
-                </label>
-                <label for="fee10" class="block">
-                    <input type="checkbox" name="fee10" id="fee10" class="mr1">&lt; € 10
-                    <small title="per month">/mo</small>
-                </label>
+                <select class="block">
+                    <option value="free">Free</option>
+                    <option selected="selected" value="&lt € 2/mo"> &lt €2/mo</option>
+                    <option value="&lt € 5/mo">&lt € 5/mo</option>
+                    <option value="&lt € 10/mo">&lt € 10/mo</option>
+                </select>
+
                 <p class="h4 mt2 mb1 gray border-bottom">Cards
                     <small>
                         <a class="blue" href="#"><i class="fa fa-info-circle"></i></a>
