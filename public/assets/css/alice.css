@@ -42,11 +42,11 @@ header h1 {
   box-shadow: 1px 1px 1px #000;
 }
 
-a {
+.landingpage a {
   border-bottom: 1px dotted;
 }
 
-a:hover {
+.landingpage a:hover {
   text-decoration: none;
   border-bottom: 1px solid;
 }
