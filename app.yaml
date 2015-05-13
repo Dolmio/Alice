@@ -28,3 +28,7 @@ handlers:
 - url: /comparison
   static_files: public/comparison.html
   upload: public/comparison\.html
+
+- url: /kyc
+  static_files: public/kyc.html
+  upload: public/kyc\.html
