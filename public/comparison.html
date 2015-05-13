@@ -18,9 +18,9 @@
 </head>
 
 <body class="bg-white">
-    <div class="container">
-        <div class="row">
-            <div class="col col-3">
+    <div class="">
+        <div class="clearfix mb2">
+            <div class="col col-3 px2">
                 <h3 class="blue">Filters</h3>
                 <p class="h4 mt2 mb1 gray border-bottom">Account Fee
                     <small>
@@ -94,127 +94,278 @@
                     </small>
                 </label>
             </div>
-            <div class="col col-9">
 
-                <ul class="list-reset columns">
-                    <li class="pull-left">
-                        <ul class="list-group list-reset column">
-                            <li class="column-heading"> <h3>Features</h3></li>
-                            <li class="list-group-item">Account fee</li>
-                            <li class="list-group-item">Online Banking</li>
-                            <li class="list-group-item">Mobile Banking</li>
-                            <li class="list-group-item">Debit Card</li>
-                            <li class="list-group-item">Credit Card</li>
-                            <li class="list-group-item">Transfer Fees
-                                <ul class="sub-group">
-                                    <li>Euro Payments</li>
-                                    <li>Non-Euro Payments</li>
-                                </ul>
-                            </li>
-                            <li class="list-group-item">ATM Fees
-                                <ul class="sub-group">
-                                    <li>Local</li>
-                                    <li>Euro countries</li>
-                                    <li>Non-Euro countries</li>
-                                </ul>
-                            </li>
-                            <li class="list-group-item">Registration</li>
+            <div class="col col-9 px2">
+              <h3 class="blue">Top 3 Offers</h3>
 
+              <div class="overflow-scroll">
+                <table class="table-light overflow-hidden bg-white border rounded">
+                  <thead class="bg-darken-1">
+                    <tr>
+                      <th class="col-3 border-right">Features</th>
+                      <th class="col-3 border-right">Bank 1</th>
+                      <th class="col-3 border-right">Bank 2</th>
+                      <th class="col-3">Bank 3</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td class="border-right bg-darken-1">
+                        <p class="h4 bold mb0">Account Fee</p>
+                      </td>
+                      <td class="border-right">free</td>
+                      <td class="border-right">€2,50 <small>/mo</small></td>
+                      <td>free</td>
+                    </tr>
+
+                    <tr>
+                      <td class="border-right bg-darken-1">
+                        <p class="h4 bold mb0">Cards</p>
+                        <ul class="list-reset ml1">
+                          <li>Debit Card</li>
+                          <li>Credit Card</li>
+                          <li>Prepaid Card</li>
                         </ul>
-                    </li>
-
-                    <li class="pull-left">
-                        <ul class="list-group list-reset column">
-                            <li class="column-heading"> <h3>Bank1</h3></li>
-                            <li class="list-group-item">Free</li>
-                            <li class="list-group-item"><i class="fa fa-check-circle-o"></i></li>
-                            <li class="list-group-item"><i class="fa fa-times-circle"></i></li>
-                            <li class="list-group-item"><i class="fa fa-check-circle-o"></i></li>
-                            <li class="list-group-item"><i class="fa fa-check-circle-o"></i></li>
-                            <li class="list-group-item">
-                                &nbsp
-                                <ul class="sub-group">
-                                    <li>Free</li>
-                                    <li>0.2€/transaction</li>
-                                </ul>
-                            </li>
-                            <li class="list-group-item">
-                                &nbsp
-                                <ul class="sub-group">
-                                    <li>Free</li>
-                                    <li>Free</li>
-                                    <li>2€ + 0.25%</li>
-                                </ul>
-                            </li>
-
-                            <li class="list-group-item">
-                                <button class="button button-small open-button">Open account</button>
-                            </li>
-
+                      </td>
+                      <td class="border-right">
+                        <p class="h4 mb0">&nbsp;</p>
+                        <ul class="list-reset">
+                          <li><i class="mr1 fa fa-check-circle-o green"></i>VISA Electron</li>
+                          <li><i class="mr1 fa fa-check-circle-o green"></i>VISA</li>
+                          <li><i class="mr1 fa fa-times-circle-o red"></i></li>
                         </ul>
-                    </li>
-
-                    <li class="pull-left">
-                        <ul class="list-group list-reset column">
-                            <li class="column-heading"> <h3>Bank2</h3></li>
-                            <li class="list-group-item">5€/year</li>
-                            <li class="list-group-item"><i class="fa fa-check-circle-o"></i></li>
-                            <li class="list-group-item"><i class="fa fa-check-circle-o"></i></li>
-                            <li class="list-group-item"><i class="fa fa-check-circle-o"></i></li>
-                            <li class="list-group-item"><i class="fa fa-check-circle-o"></i></li>
-                            <li class="list-group-item">
-                                &nbsp
-                                <ul class="sub-group">
-                                    <li>Free</li>
-                                    <li>1€/transaction</li>
-                                </ul>
-                            </li>
-                            <li class="list-group-item">
-                                &nbsp
-                                <ul class="sub-group">
-                                    <li>Free</li>
-                                    <li>1€</li>
-                                    <li>3€ + 0.25%</li>
-                                </ul>
-                            </li>
-
-                            <li class="list-group-item">
-                                <button class="button button-small documents-button">Required documents</button>
-                            </li>
+                      </td>
+                      <td class="border-right">
+                        <p class="h4 mb0">&nbsp;</p>
+                        <ul class="list-reset">
+                          <li><i class="mr1 fa fa-check-circle-o green"></i>VISA Electron</li>
+                          <li><i class="mr1 fa fa-times-circle-o red"></i></li>
+                          <li><i class="mr1 fa fa-times-circle-o red"></i></li>
                         </ul>
-                    </li>
-
-                    <li class="pull-left">
-                        <ul class="list-group list-reset column">
-                            <li class="column-heading"> <h3>Bank3</h3></li>
-                            <li class="list-group-item">Free</li>
-                            <li class="list-group-item"><i class="fa fa-check-circle-o"></i></li>
-                            <li class="list-group-item"><i class="fa fa-times-circle"></i></li>
-                            <li class="list-group-item"><i class="fa fa-times-circle"></i></li>
-                            <li class="list-group-item"><i class="fa fa-times-circle"></i></li>
-                            <li class="list-group-item">
-                                &nbsp
-                                <ul class="sub-group">
-                                    <li>Free</li>
-                                    <li>0.2€/transaction</li>
-                                </ul>
-                            </li>
-                            <li class="list-group-item">
-                                &nbsp
-                                <ul class="sub-group">
-                                    <li>Free</li>
-                                    <li>Free</li>
-                                    <li>2€ + 0.25%</li>
-                                </ul>
-                            </li>
-
-                            <li class="list-group-item">
-                                <button class="button button-small open-button">Open account</button>
-                            </li>
-
+                      </td>
+                      <td>
+                        <p class="h4 mb0">&nbsp;</p>
+                        <ul class="list-reset">
+                          <li><i class="mr1 fa fa-times-circle-o red"></i></li>
+                          <li><i class="mr1 fa fa-times-circle-o red"></i></li>
+                          <li><i class="mr1 fa fa-check-circle-o green"></i>MasterCard Prepaid</li>
                         </ul>
-                    </li>
-                </ul>
+                      </td>
+                    </tr>
+
+                    <tr>
+                      <td class="border-right bg-darken-1">
+                        <p class="h4 bold mb0">Services</p>
+                        <ul class="list-reset ml1">
+                          <li>Online Banking</li>
+                          <li>Mobile Banking</li>
+                        </ul>
+                      </td>
+                      <td class="border-right">
+                        <p class="h4 mb0">&nbsp;</p>
+                        <ul class="list-reset">
+                          <li><i class="mr1 fa fa-check-circle-o green"></i></li>
+                          <li><i class="mr1 fa fa-times-circle-o red"></i></li>
+                        </ul>
+                      </td>
+                      <td class="border-right">
+                        <p class="h4 mb0">&nbsp;</p>
+                        <ul class="list-reset">
+                          <li><i class="mr1 fa fa-check-circle-o green"></i></li>
+                          <li><i class="mr1 fa fa-check-circle-o green"></i></li>
+                        </ul>
+                      </td>
+                      <td>
+                        <p class="h4 mb0">&nbsp;</p>
+                        <ul class="list-reset">
+                          <li><i class="mr1 fa fa-check-circle-o green"></i></li>
+                          <li><i class="mr1 fa fa-times-circle-o red"></i></li>
+                        </ul>
+                      </td>
+                    </tr>
+
+                    <tr>
+                      <td class="border-right bg-darken-1">
+                        <p class="h4 bold mb0">Transfer Fees (online)</p>
+                        <ul class="list-reset ml1">
+                          <li>Local</li>
+                          <li>Within Europe</li>
+                          <li>From outside Europe</li>
+                          <li>To outside Europe</li>
+                        </ul>
+                      </td>
+                      <td class="border-right">
+                        <p class="h4 mb0">&nbsp;</p>
+                        <ul class="list-reset">
+                          <li>Free</li>
+                          <li>Free</li>
+                          <li>€5 <small>/transaction</small></li>
+                          <li>€5 <small>/transaction</small></li>
+                        </ul>
+                      </td>
+                      <td class="border-right">
+                        <p class="h4 mb0">&nbsp;</p>
+                        <ul class="list-reset">
+                          <li>Free</li>
+                          <li>Free</li>
+                          <li>€5 <small>/transaction</small></li>
+                          <li>€5 <small>/transaction</small></li>
+                        </ul>
+                      </td>
+                      <td>
+                        <p class="h4 mb0">&nbsp;</p>
+                        <ul class="list-reset">
+                          <li>Free</li>
+                          <li>Free</li>
+                          <li>€5 <small>/transaction</small></li>
+                          <li>€5 <small>/transaction</small></li>
+                        </ul>
+                      </td>
+                    </tr>
+
+                    <tr>
+                      <td class="border-right bg-darken-1">
+                        <p class="h4 bold mb0">ATM Fees</p>
+                        <ul class="list-reset ml1">
+                          <li>Local</li>
+                          <li>Europe</li>
+                          <li>Worldwide</li>
+                        </ul>
+                      </td>
+                      <td class="border-right">
+                        <p class="h4 mb0">&nbsp;</p>
+                        <ul class="list-reset">
+                          <li>Free</li>
+                          <li>€1 <small>/transaction</small></li>
+                          <li>€2,50 <small>/transaction</small> + 5%</li>
+                        </ul>
+                      </td>
+                      <td class="border-right">
+                        <p class="h4 mb0">&nbsp;</p>
+                        <ul class="list-reset">
+                          <li>Free</li>
+                          <li>€1 <small>/transaction</small></li>
+                          <li>€2,50 <small>/transaction</small> + 5%</li>
+                        </ul>
+                      </td>
+                      <td>
+                        <p class="h4 mb0">&nbsp;</p>
+                        <ul class="list-reset">
+                          <li>Free</li>
+                          <li>€1 <small>/transaction</small></li>
+                          <li>€2,50 <small>/transaction</small> + 5%</li>
+                        </ul>
+                      </td>
+                    </tr>
+
+                    <tr>
+                      <td class="border-right bg-darken-1">
+                        <p class="h4 bold mb0">Foreign Languages</p>
+                        <ul class="list-reset ml1">
+                          <li>English</li>
+                          <li>Swedish</li>
+                          <li>Russian</li>
+                        </ul>
+                      </td>
+                      <td class="border-right">
+                        <p class="h4 mb0">&nbsp;</p>
+                        <ul class="list-reset">
+                          <li><i class="mr1 fa fa-check-circle-o green"></i></li>
+                          <li><i class="mr1 fa fa-check-circle-o green"></i></li>
+                          <li><i class="mr1 fa fa-times-circle-o red"></i></li>
+                        </ul>
+                      </td>
+                      <td class="border-right">
+                        <p class="h4 mb0">&nbsp;</p>
+                        <ul class="list-reset">
+                          <li><i class="mr1 fa fa-check-circle-o green"></i></li>
+                          <li><i class="mr1 fa fa-check-circle-o green"></i></li>
+                          <li><i class="mr1 fa fa-times-circle-o red"></i></li>
+                        </ul>
+                      </td>
+                      <td>
+                        <p class="h4 mb0">&nbsp;</p>
+                        <ul class="list-reset">
+                          <li><i class="mr1 fa fa-check-circle-o green"></i></li>
+                          <li><i class="mr1 fa fa-check-circle-o green"></i></li>
+                          <li><i class="mr1 fa fa-times-circle-o red"></i></li>
+                        </ul>
+                      </td>
+                    </tr>
+
+                    <tr>
+                      <td class="border-right bg-darken-1">
+                        <p class="h4 bold mb0">Opening your Account</p>
+                        <ul class="list-reset ml1">
+                          <li>
+                            Forms Available
+                            <small>
+                                <a class="gray" href="#"><i class="fa fa-info-circle"></i></a>
+                            </small>
+                          </li>
+                          <li>
+                            Open online with Alice
+                            <small>
+                                <a class="gray" href="#"><i class="fa fa-info-circle"></i></a>
+                            </small>
+                          </li>
+                          <li>
+                            Account ready
+                            <small>
+                                <a class="gray" href="#"><i class="fa fa-info-circle"></i></a>
+                            </small>
+                          </li>
+                        </ul>
+                      </td>
+                      <td class="border-right">
+                        <p class="h4 mb0">&nbsp;</p>
+                        <ul class="list-reset">
+                          <li><i class="mr1 fa fa-check-circle-o green"></i></li>
+                          <li><i class="mr1 fa fa-check-circle-o green"></i></li>
+                          <li>On arrival</li>
+                        </ul>
+                      </td>
+                      <td class="border-right">
+                        <p class="h4 mb0">&nbsp;</p>
+                        <ul class="list-reset">
+                          <li><i class="mr1 fa fa-check-circle-o green"></i></li>
+                          <li><i class="mr1 fa fa-times-circle-o red"></i></li>
+                          <li>2 weeks</li>
+                        </ul>
+                      </td>
+                      <td>
+                        <p class="h4 mb0">&nbsp;</p>
+                        <ul class="list-reset">
+                          <li><i class="mr1 fa fa-times-circle-o red"></i></li>
+                          <li><i class="mr1 fa fa-times-circle-o red"></i></li>
+                          <li>1 month</li>
+                        </ul>
+                      </td>
+                    </tr>
+
+                    <tr>
+                      <td class="border-right bg-darken-1 p2">
+                        <p class="h4 bold mb0">Open Account</p>
+                      </td>
+                      <td class="border-right p2">
+                        <a href="#" class="mb1 button block full-width center bg-olive">Open with Alice</a>
+                        <a href="#"><i class="fa fa-chevron-right ml1 mr1"></i>Show details</a>
+                      </td>
+                      <td class="border-right p2">
+                        <a href="#" class="mb1 button block full-width center">Download Forms</a>
+                        <a href="#"><i class="fa fa-chevron-right ml1 mr1"></i>Show details</a>
+                      </td>
+                      <td class="p2">
+                        <button class="mb1 button block full-width center silver bg-gray" disabled>Not Available</button>
+                        <a href="#"><i class="fa fa-chevron-right ml1 mr1"></i>Show details</a>
+                      </td>
+                    </tr>
+
+
+
+                  </tbody>
+                </table>
+              </div>
             </div>
         </div>
     </div>
