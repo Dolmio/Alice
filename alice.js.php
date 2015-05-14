@@ -40,18 +40,6 @@ $(function() {
     user: user
   });
 
-  $('#getstartednow').click(function(e){
-    e.preventDefault();
-    e.stopPropagation();
-    alert('Still have to hook up this button.');
-  });
-
-  $('#learnmore').click(function(e){
-    e.preventDefault();
-    e.stopPropagation();
-    alert('Still have to hook up this button.');
-  });
-
   $('#form').submit(function(e) {
     e.preventDefault();
     e.stopPropagation();
