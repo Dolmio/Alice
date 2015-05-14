@@ -21,19 +21,6 @@
         <div class="clearfix mb2">
             <div class="col col-3 px2">
                 <h3 class="blue">Filters</h3>
-                <div class="cleafix">
-                    <p class="h4 mt2 mb1 gray border-bottom">Account Fee
-                        <small>
-                            <a class="blue" href="#"><i class="fa fa-info-circle"></i></a>
-                        </small>
-                    </p>
-                </div>
-                <select class="block">
-                    <option value="free">Free</option>
-                    <option selected="selected" value="&lt € 2/mo"> &lt €2/mo</option>
-                    <option value="&lt € 5/mo">&lt € 5/mo</option>
-                    <option value="&lt € 10/mo">&lt € 10/mo</option>
-                </select>
 
                 <p class="h4 mt2 mb1 gray border-bottom">Cards
                     <small>
@@ -44,8 +31,7 @@
                     <input type="checkbox" name="debitcard" id="debitcard" class="mr1">Debit Card</label>
                 <label for="creditcard" class="block">
                     <input type="checkbox" name="creditcard" id="creditcard" class="mr1">Credit Card</label>
-                <label for="prepaidcard" class="block">
-                    <input type="checkbox" name="prepaidcard" id="prepaidcard" class="mr1">Prepaid Card</label>
+
                 <p class="h4 mt2 mb1 gray border-bottom">Services
                     <small>
                         <a class="blue" href="#"><i class="fa fa-info-circle"></i></a>
@@ -55,11 +41,13 @@
                     <input type="checkbox" name="onlinebanking" id="onlinebanking" class="mr1">Online Banking</label>
                 <label for="mobilebanking" class="block">
                     <input type="checkbox" name="mobilebanking" id="mobilebanking" class="mr1">Mobile Banking</label>
-                <p class="h4 mt2 mb1 gray border-bottom">Foreign Languages
+                <p class="h4 mt2 mb1 gray border-bottom">Languages for essential services
                     <small>
                         <a class="blue" href="#"><i class="fa fa-info-circle"></i></a>
                     </small>
                 </p>
+                <label for="finnishlanguage" class="block">
+                    <input type="checkbox" name="finnishlanguage" id="finnishlanguage" class="mr1">Finnish</label>
                 <label for="englishlanguage" class="block">
                     <input type="checkbox" name="englishlanguage" id="englishlanguage" class="mr1">English</label>
                 <label for="swedishlanguage" class="block">
@@ -211,12 +199,12 @@
                                     <ul class="list-reset ml1">
                                         <li>Local</li>
                                         <li>Within Europe</li>
-                                        <li>From
+                                        <li>Transfer from
                                             <select name="foreigncountry" id="foreigncountry">
                                                 <option value="sweden">Sweden</option>
                                             </select>
                                         </li>
-                                        <li>To
+                                        <li>Transfer to
                                             <select name="foreigncountry" id="foreigncountry">
                                                 <option value="india">India</option>
                                             </select>
