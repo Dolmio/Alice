@@ -1,0 +1,49 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Choose with Alice</title>
+  <meta name="description" content="Starting your studies abroad in Finland should be easy. We help you with that.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Place favicon.ico in the root directory -->
+  <link rel="stylesheet" href="assets/css/normalize.css">
+  <link rel="stylesheet" href="assets/css/basscss.css">
+  <link rel="stylesheet" href="assets/css/font-awesome.css">
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic|Montserrat:400,700">
+  <link rel="stylesheet" href="assets/css/app.css">
+</head>
+
+<body class="bg-white" ng-app="AliceApp">
+
+  <header class="bg-blue white">
+    <div class="container">
+      <div class="clearfix">
+        <div class="left">
+          <a href="#/" class="button py1 m0 button-transparent">
+            <img src="assets/img/logo.svg" alt="" class="logo">
+          </a>
+        </div>
+
+        <div class="right">
+          <a href="#/progress" class="button py2 m0 button-transparent">My Account</a>
+        </div>
+      </div>
+    </div>
+
+  </header>
+
+  <main class="container">
+
+    <div ng-view></div>
+
+  </main>
+
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/firebase.min.js"></script>
+  <script src="assets/js/angular.min.js"></script>
+  <script src="assets/js/angular-route.min.js"></script>
+  <script src="assets/js/angularfire.min.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
