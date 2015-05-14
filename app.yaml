@@ -25,6 +25,10 @@ handlers:
   static_files: public/index.html
   upload: public/index\.html
 
+- url: /list
+  static_files: public/list.html
+  upload: public/list\.html
+
 - url: /comparison
   static_files: public/comparison.html
   upload: public/comparison\.html
