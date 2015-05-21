@@ -9,3 +9,41 @@ h1, h2, h3, h4, h5, h6 {
 header .logo {
   height: 30px;
 }
+
+a.tooltips {
+  position: relative;
+  display: inline;
+}
+a.tooltips span {
+  position: absolute;
+  width:200px;
+  color: #FFFFFF;
+  padding: 5px 15px;
+  background: #000000;
+  font-size: smaller;
+  text-align: left;
+  border-radius: 6px;
+  bottom: 50px;
+  left: 50%;
+  margin-left: -110px;
+  z-index: 999;
+  opacity: 0.9;
+}
+a.tooltips span:after {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -8px;
+  width: 0; height: 0;
+  border-top: 8px solid #000000;
+  border-right: 8px solid transparent;
+  border-left: 8px solid transparent;
+}
+
+a:hover.tooltips span {
+  visibility: visible;
+}
+.hide-tooltip {
+  visibility: hidden;
+}
